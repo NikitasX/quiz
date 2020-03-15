@@ -19,16 +19,16 @@ $solution = isset($_GET['solution']) ? 1 : 0;
 				<!-- Only change code inside this form -->
 				<div class="form-group">
 					<label>Username</label>
-					<input id="username" class="form-control" placeholder="Username" type="input">
+					<input id="username"  name="username" class="form-control" placeholder="Username" type="input" required>
 				</div>
 				<div class="form-group">
 					<label>Password</label>
-					<input id="password" class="form-control" placeholder="******" type="password">
+					<input id="password" name="password" class="form-control" placeholder="******" type="password" required>
 				</div>
 				<div class="form-group">
 					<div class="checkbox">
 						<label>
-							<input id="save" type="checkbox" value="save">
+							<input id="save" name="savepassword" type="checkbox" value="save">
 							Save password
 						</label>
 					</div>
